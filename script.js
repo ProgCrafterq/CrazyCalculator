@@ -29,12 +29,12 @@ function calculate() {
   let result;
 
   if (currentInput === '') {
-    showImage('https://www.shutterstock.com/image-illustration/windows-error-virus-260nw-79810993.jpg', 10000);
+    showImage('error.png', 10000); 
     return;
   }
 
   if (currentInput === '2+2') {
-    showImage('https://www.stellarinfo.com/blog/wp-content/uploads/2020/10/image-18.png', 10000); 
+    showImage('2+2.png', 10000); 
     return;
   }
 
@@ -90,7 +90,7 @@ function calculate() {
 function clearDisplay() {
   currentInput = ''; 
   document.getElementById('display').value = ''; 
-  showImage('https://media.kasperskydaily.com/wp-content/uploads/sites/90/2016/04/06042304/windows-new-bsod-featured.jpg', 10000);
+  showImage('virus.jpg', 10000); 
 }
 
 function showImage(src, duration) {
